@@ -47,7 +47,7 @@ public class StepDefForiPhone {
 		MyScreenShot.captureScreenShot(driver, "LoginSuccessShot");
 		color.drawBorder(apf.getAmazonLoginTest(), "black");
 		System.out.println(apf.getAmazonLoginTest().getText());
-		if (apf.getAmazonLoginTest().getText().equalsIgnoreCase("Hello, Akija")) {
+		if (apf.getAmazonLoginTest().getText().equalsIgnoreCase("Hi, Akija")) {
 			System.out.println("Amazon LogIn Passed");
 		} else {
 			System.out.println("Amazon LogIn Failed");

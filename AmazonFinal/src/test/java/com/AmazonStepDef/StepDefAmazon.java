@@ -70,7 +70,7 @@ public class StepDefAmazon {
 		
 		System.out.println(obj.getAmazonLoginTest().getText());
 		
-		if (obj.getAmazonLoginTest().getText().equalsIgnoreCase("Hi, Sukanta")) {
+		if (obj.getAmazonLoginTest().getText().equalsIgnoreCase("Hi, Akija")) {
 			System.out.println("Amazon LogIn Passed");
 		} else {
 			System.out.println("Amazon LogIn Failed");
